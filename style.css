@@ -1,0 +1,50 @@
+body{
+    background-color: #282b34;
+}
+
+.container{
+    background-color: #d7d4cb;
+    border: 1px solid #212329;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#idadeInput{
+    border: none;
+    background-color: #282b34;
+    color: #d7d4cb;
+    width: 80%;
+}
+
+.input{
+    display: flex;
+    background-color: #282b34;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: "Inter", sans-serif;
+}
+
+button{
+    border-radius: 10px;
+    left: 83%;
+    position: absolute;
+    padding: 5px;
+    top: 75%;
+    border: none;
+    background-color: #d7d4cb;
+
+}
+h1{
+    font-family: "Protest Strike", sans-serif; 
+}
+
+p{
+    font-family: "Inter", sans-serif;
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+.container{
+    display: flex;
+    margin-top: 100px;
+}
+
+header{
+    width: 100%;
+    background-color: #333740;
+    color: #d7d4cb;
+    text-align: center;
+}
+
+h2{
+    font-size: 20px;
+}
+#red{
+    color: red;
+}
+
+.content{
+    line-height: 1.8;
+    background-color: #333740;
+    border-radius: 20px;
+    padding: 10px;
+    color: #d7d4cb;
+    height: 200px;
+}
+
+.button{
+    color: green;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 1s ease;
+    margin-top: 20px;
+}
+
+button:hover{
+    transform: scale(1.2);
+}

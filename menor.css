@@ -1,0 +1,31 @@
+body{
+    background-color: #282b34;
+}
+
+.container{
+    background-color: #ce160b;
+    border: 2px solid #f52c15;
+    width: 40%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+h1{
+    font-family: "Protest Strike", sans-serif;
+}
+
+p{
+    font-family: "Inter", sans-serif;
+}
+
+img{
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+img:hover{
+    transform: scale(1.1);
+}
